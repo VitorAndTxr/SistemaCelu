@@ -70,7 +70,8 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\Person.cs" />
+    <Compile Include="Models\Entities\Morador.cs" />
+    <Compile Include="Models\Entities\Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
