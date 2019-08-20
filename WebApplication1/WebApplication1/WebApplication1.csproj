@@ -44,6 +44,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -70,8 +72,11 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\Entities\Morador.cs" />
-    <Compile Include="Models\Entities\Person.cs" />
+    <Compile Include="Models\Entities\BaseControl.cs" />
+    <Compile Include="Models\Entities\Cadastro\Guest.cs" />
+    <Compile Include="Models\Entities\Cadastro\Resident.cs" />
+    <Compile Include="Models\Entities\Cadastro\Person.cs" />
+    <Compile Include="Models\Entities\Financeiro\Payment.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

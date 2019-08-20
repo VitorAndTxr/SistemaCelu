@@ -1,0 +1,4 @@
+﻿CREATE TABLE [dbo].[TbFinPayment]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY
+)

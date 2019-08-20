@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{6939D13C-59B7-40B6-A89F-CFA87F3A8E0E}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SysCeluDatabase", "SysCeluDatabase\SysCeluDatabase.sqlproj", "{0214B87F-AF25-4BA4-92CD-7CDD27A7716B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{6939D13C-59B7-40B6-A89F-CFA87F3A8E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6939D13C-59B7-40B6-A89F-CFA87F3A8E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6939D13C-59B7-40B6-A89F-CFA87F3A8E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0214B87F-AF25-4BA4-92CD-7CDD27A7716B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0214B87F-AF25-4BA4-92CD-7CDD27A7716B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0214B87F-AF25-4BA4-92CD-7CDD27A7716B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0214B87F-AF25-4BA4-92CD-7CDD27A7716B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0214B87F-AF25-4BA4-92CD-7CDD27A7716B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0214B87F-AF25-4BA4-92CD-7CDD27A7716B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
