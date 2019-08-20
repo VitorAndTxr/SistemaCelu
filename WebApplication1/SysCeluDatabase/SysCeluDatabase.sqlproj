@@ -64,6 +64,7 @@
     <Build Include="TbUsrUser.sql" />
     <Build Include="TbCadGuest.sql" />
     <Build Include="TbFinPayment.sql" />
+    <Build Include="Sys_Lookup.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="SysCeluDatabase.refactorlog" />

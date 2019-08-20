@@ -1,6 +1,7 @@
 ﻿CREATE TABLE [dbo].[TbCadPerson]
 (
-	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [Active] BIT NOT NULL DEFAULT 1,
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY DEFAULT NEWID(), 
     [Name] NVARCHAR(MAX) NOT NULL, 
     [DocNumber] NVARCHAR(MAX) NOT NULL, 
     [DocType] INT NOT NULL, 
@@ -16,11 +17,10 @@
     [Adress] NVARCHAR(MAX) NOT NULL, 
     [Country] INT NOT NULL, 
     [Gender] INT NOT NULL, 
-    [CreatedBy] UNIQUEIDENTIFIER NOT NULL, 
+    [CreatedById] UNIQUEIDENTIFIER NOT NULL, 
 	[CreatedDate] DATETIME NOT NULL DEFAULT getdate(), 
-    [ModifiedBy] UNIQUEIDENTIFIER NOT NULL, 
+    [ModifiedById] UNIQUEIDENTIFIER NOT NULL, 
     [ModifiedDate] DATETIME NOT NULL DEFAULT getdate(), 
-    [Active] BIT NOT NULL DEFAULT 1,
-	CONSTRAINT [FK_TbCadPerson_TbUsrUser] FOREIGN KEY ([CreatedBy]) REFERENCES [TbUsrUser]([Id]), 
-    CONSTRAINT [FK_TbCadPerson_TbUsrUser] FOREIGN KEY ([ModifiedBy]) REFERENCES [TbUsrUser]([Id])
+	CONSTRAINT [FK_TbCadPerson_TbUsrUser] FOREIGN KEY ([CreatedById]) REFERENCES [TbUsrUser]([Id]), 
+    CONSTRAINT [FK_TbCadPerson_TbUsrUser] FOREIGN KEY ([ModifiedById]) REFERENCES [TbUsrUser]([Id])
 )
