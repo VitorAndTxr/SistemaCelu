@@ -1,0 +1,7 @@
+C:\Projects\SistemaCelu\WebApplication1\SysCeluDatabase\bin\Debug\SysCeluDatabase.dacpac
+C:\Projects\SistemaCelu\WebApplication1\SysCeluDatabase\obj\Debug\Model.xml
+C:\Projects\SistemaCelu\WebApplication1\SysCeluDatabase\obj\Debug\refactor.xml
+C:\Projects\SistemaCelu\WebApplication1\SysCeluDatabase\obj\Debug\postdeploy.sql
+C:\Projects\SistemaCelu\WebApplication1\SysCeluDatabase\obj\Debug\predeploy.sql
+C:\Projects\SistemaCelu\WebApplication1\SysCeluDatabase\obj\Debug\SysCeluDatabase.dll
+C:\Projects\SistemaCelu\WebApplication1\SysCeluDatabase\obj\Debug\SysCeluDatabase.pdb
